@@ -6,7 +6,7 @@ services:
 
 
 before_install:
-  - docker bnuild -t kocsisstefan/docker-react -f Dockerfile.dev .
+  - docker build -t kocsisstefan/docker-react -f Dockerfile.dev .
 
 
 
